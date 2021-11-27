@@ -67,6 +67,22 @@ namespace AssignmentT2009M1.Services
             await FileIO.WriteTextAsync(storageFile, content);
         }
 
+        public async Task<Credential> LoadAccessTokenFromFile()
+        {
+            try
+            {
+                StorageFolder storageFolder = ApplicationData.Current.LocalCacheFolder;
+                StorageFile storageFile = await storageFolder.GetFileAsync("milt.txt");
+                var fileContent = await FileIO.ReadTextAsync(storageFile);
+                var credential = Newtonsoft.Json.JsonConvert.DeserializeObject<Credential>(fileContent);
+                return credential;
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+        }
+
         public async Task<Account> GetInfomation()
         {
             var credential = await LoadAccessTokenFromFile();  
@@ -94,21 +110,6 @@ namespace AssignmentT2009M1.Services
                 Console.WriteLine(e.Message);
             }
             return null;
-        }
-
-        private async Task<Credential> LoadAccessTokenFromFile()
-        {
-            try
-            {
-                StorageFolder storageFolder = ApplicationData.Current.LocalCacheFolder;
-                StorageFile storageFile = await storageFolder.GetFileAsync("milt.txt");
-                var fileContent = await FileIO.ReadTextAsync(storageFile);
-                var credential = Newtonsoft.Json.JsonConvert.DeserializeObject<Credential>(fileContent);
-                return credential;
-            } catch(Exception e)
-            {
-                return null;
-            }
-        }
+        }      
     }
 }

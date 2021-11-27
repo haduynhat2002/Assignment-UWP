@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-27T19:42:23.020</Modified>
+      <Modified>2021-11-27T20:15:25.674</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\AssignmentT2009M1.exe">
       <PackagePath>entrypoint\AssignmentT2009M1.exe</PackagePath>
-      <Modified>2021-11-27T19:42:19.985</Modified>
+      <Modified>2021-11-27T20:15:16.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\.nuget\packages\cloudinarydotnet\1.15.2\lib\netstandard2.0\CloudinaryDotNet.dll">
       <PackagePath>CloudinaryDotNet.dll</PackagePath>
@@ -130,39 +130,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\AssignmentT2009M1.xr.xml">
       <PackagePath>AssignmentT2009M1.xr.xml</PackagePath>
-      <Modified>2021-11-27T19:36:03.222</Modified>
+      <Modified>2021-11-27T20:04:34.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-11-27T19:42:19.812</Modified>
+      <Modified>2021-11-27T20:15:16.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-11-27T19:42:19.812</Modified>
+      <Modified>2021-11-27T20:15:16.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\Pages\CreateSong.xbf">
       <PackagePath>Pages\CreateSong.xbf</PackagePath>
-      <Modified>2021-11-27T19:42:19.813</Modified>
+      <Modified>2021-11-27T20:15:16.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\Pages\ListSong.xbf">
       <PackagePath>Pages\ListSong.xbf</PackagePath>
-      <Modified>2021-11-27T19:42:19.813</Modified>
+      <Modified>2021-11-27T20:15:16.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\Pages\LoginPages.xbf">
       <PackagePath>Pages\LoginPages.xbf</PackagePath>
-      <Modified>2021-11-27T19:42:19.813</Modified>
+      <Modified>2021-11-27T20:15:16.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\Pages\MenuBar.xbf">
       <PackagePath>Pages\MenuBar.xbf</PackagePath>
-      <Modified>2021-11-27T19:42:19.813</Modified>
+      <Modified>2021-11-27T20:15:16.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\Pages\ProfilePages.xbf">
       <PackagePath>Pages\ProfilePages.xbf</PackagePath>
-      <Modified>2021-11-27T19:42:19.814</Modified>
+      <Modified>2021-11-27T20:15:16.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\Pages\RegisterPage.xbf">
       <PackagePath>Pages\RegisterPage.xbf</PackagePath>
-      <Modified>2021-11-27T19:42:19.814</Modified>
+      <Modified>2021-11-27T20:15:16.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -174,7 +174,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ha Nhat\source\repos\AssignmentT2009M1\AssignmentT2009M1\bin\x64\Debug\Core\AssignmentT2009M1.exe">
       <PackagePath>AssignmentT2009M1.exe</PackagePath>
-      <Modified>2021-11-27T19:42:23.009</Modified>
+      <Modified>2021-11-27T20:15:25.668</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
