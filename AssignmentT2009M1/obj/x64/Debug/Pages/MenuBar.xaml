@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="AssignmentT2009M1.Pages.MenuBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AssignmentT2009M1.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <NavigationView x:ConnectionId='2' PaneTitle="Music I Like"                                                   >
+        <NavigationView.MenuItems>
+            <NavigationViewItem Tag="ListSong" Icon="MusicInfo" Content="Latest Song"/>
+            <NavigationViewItem Tag="CreateSong" Icon="Audio" Content="Create Song"/>
+            <NavigationViewItem Tag="MySong" Icon="ContactInfo" Content="My Song"/>
+            <NavigationViewItemSeparator/>
+            <NavigationViewItem Tag="RecentView" Icon="Clock" Content="Recent view"/>
+            <NavigationViewItem Tag="NowPlaying" Icon="Play" Content="Now Playing"/>
+            <NavigationViewItem Tag="PlayList" Icon="AlignCenter" Content="PlayList"/>
+            <NavigationViewItemSeparator/>
+            <NavigationViewItem Tag="Login" Icon="Permissions" Content="Login"/>
+            <NavigationViewItem Tag="Register" Icon="AddFriend" Content="Register"/>
+            <NavigationViewItem Tag="Profile" Icon="Contact" Content="Profile"/>
+        </NavigationView.MenuItems>
+        <NavigationView.AutoSuggestBox>
+            <AutoSuggestBox QueryIcon="Find"/>
+        </NavigationView.AutoSuggestBox>
+        <Frame x:ConnectionId='3' x:Name="contentFrame"/>
+    </NavigationView>
+</Page>
+

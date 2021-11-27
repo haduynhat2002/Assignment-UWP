@@ -1,0 +1,38 @@
+﻿using AssignmentT2009M1.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AssignmentT2009M1.Services
+{
+    public class MusicService
+    {
+        private const string ApiBaseUrl = "https://music-i-like.herokuapp.com";
+        private const string ApiSongPath = "/api/v1/songs";
+        public async Task<List<Music>> GetLatestSongAsync()
+        {
+            List<Music> result = new List<Music>();
+            try
+            {
+                HttpClient httpClient = new HttpClient();         
+                var requestConnection =
+                    await httpClient.GetAsync(ApiBaseUrl + ApiSongPath);
+                Console.WriteLine(requestConnection.StatusCode);
+                if (requestConnection.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    var content = await requestConnection.Content.ReadAsStringAsync();
+                    result = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Music>>(content);
+                    return result;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return null;
+        }
+    }
+}
